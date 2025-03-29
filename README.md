@@ -13,7 +13,7 @@ make
 ./<executable_name>
 
 ## Compile Single file
-g++ -std=c++17 -pthread src/01_thread_basics.cpp -o 01_thread_basics.o
+g++ -std=c++17 -pthread src/cpp/01_thread_basics.cpp -o 01_thread_basics.o
 ./01_thread_basics
 
 ## For all files
