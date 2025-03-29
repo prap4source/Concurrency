@@ -13,8 +13,8 @@ make
 ./<executable_name>
 
 ## Compile Single file
-g++ -std=c++17 -pthread src/01_thread_basics.cpp -o 01_thread_basics
+g++ -std=c++17 -pthread src/01_thread_basics.cpp -o 01_thread_basics.o
 ./01_thread_basics
 
 ## For all files
-for f in src/cpp/*.cpp; do g++ -std=c++17 -pthread "$f" -o "${f%.cpp}"; done
+for f in src/cpp/*.cpp; do g++ -std=c++17 -pthread "$f" -o "${f%.cpp}".o; done
